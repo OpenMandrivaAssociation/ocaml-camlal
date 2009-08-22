@@ -7,7 +7,7 @@ Group:          Development/Other
 URL:            http://sourceforge.net/projects/camlal/
 Source0:        http://camlal.svn.sourceforge.net/viewvc/camlal/trunk/camlal.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
-BuildRequires:  ocaml
+BuildRequires:  ocaml-findlib
 BuildRequires:  libopenal-devel
 BuildRequires:  libfreealut-devel
 
