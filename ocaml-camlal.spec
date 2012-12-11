@@ -1,13 +1,13 @@
 Name:           ocaml-camlal
 Version:        1.0.0
-Release:        %mkrel 1
+Release:        2
 Summary:        CamlAL is an OCaml bindings for OpenAL
 License:        LGPL
 Group:          Development/Other
 URL:            http://sourceforge.net/projects/camlal/
 Source0:        http://camlal.svn.sourceforge.net/viewvc/camlal/trunk/camlal.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:  ocaml-findlib
+BuildRequires:  ocaml
 BuildRequires:  libopenal-devel
 BuildRequires:  libfreealut-devel
 
@@ -68,4 +68,12 @@ rm -rf %{buildroot}
 %{_libdir}/ocaml/camlal/*.cmxa
 %{_libdir}/ocaml/camlal/*.cmx
 %{_libdir}/ocaml/camlal/*.ml
+
+
+
+%changelog
+* Sat Aug 22 2009 Florent Monnier <blue_prawn@mandriva.org> 1.0.0-1mdv2010.0
++ Revision: 419703
+- BuildRequires:  ocaml-findlib
+- import ocaml-camlal
 
