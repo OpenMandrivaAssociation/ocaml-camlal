@@ -1,6 +1,6 @@
 Name:           ocaml-camlal
 Version:        1.0.0
-Release:        2
+Release:        3
 Summary:        CamlAL is an OCaml bindings for OpenAL
 License:        LGPL
 Group:          Development/Other
