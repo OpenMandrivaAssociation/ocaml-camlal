@@ -4,7 +4,7 @@ Release:        3
 Summary:        CamlAL is an OCaml bindings for OpenAL
 License:        LGPL
 Group:          Development/Other
-URL:            http://sourceforge.net/projects/camlal/
+URL:            https://sourceforge.net/projects/camlal/
 Source0:        http://camlal.svn.sourceforge.net/viewvc/camlal/trunk/camlal.tar.gz
 BuildRequires:  ocaml-findlib
 BuildRequires:  ocaml
