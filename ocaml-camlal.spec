@@ -6,6 +6,7 @@ License:        LGPL
 Group:          Development/Other
 URL:            https://sourceforge.net/projects/camlal/
 Source0:        http://camlal.svn.sourceforge.net/viewvc/camlal/trunk/camlal.tar.gz
+BuildRequires:	make
 BuildRequires:  ocaml-findlib
 BuildRequires:  ocaml
 BuildRequires:  libopenal-devel
